@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>coffeeroasters | Create Plan</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-queries.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="summary-menu">
+        <h3 class="summary-menu-heading bg-blue">Order Summary</h3>
+        <div class="summary-menu-container">
+          <h4 id="order-popup" class="heading-tertiary bold">
+            “I drink coffee <span class="summary-order dark-cyan"></span>, with
+            a <span class="summary-order dark-cyan"></span> type of bean.
+            <span class="summary-order dark-cyan"></span> ground ala
+            <span class="summary-order dark-cyan"></span>, sent to me
+            <span class="summary-order dark-cyan"></span>.”
+          </h4>
+          <p>
+            Is this correct? You can proceed to check or go back if something is
+            off. Subcription discount codes can also be redeemed at the
+            checkout.
+          </p>
+          <button id="price-btn" class="create-btn">
+            Checkout - $0 / Month
+          </button>
+        </div>
+      </div>
+      <header class="header">
+        <img src="./assets/shared/desktop/logo.svg" alt="" />
+
+        <nav class="main-navigation">
+          <ul role="list">
+            <li class="list-item">
+              <a class="navigation-link" href="#">HOME</a>
+            </li>
+            <li class="list-item">
+              <a class="navigation-link" href="about.html">ABOUT US</a>
+            </li>
+            <li class="list-item">
+              <a class="navigation-link" href="plan.html">CREATE YOUR PLAN</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="mobile-navigation">
+          <img
+            class="mobile-navigation-button hamburger-button"
+            src="./assets/shared/mobile/icon-hamburger.svg"
+            alt=""
+          />
+          <img
+            class="mobile-navigation-button close-button"
+            src="./assets/shared/mobile/icon-close.svg"
+            alt=""
+          />
+        </div>
+      </header>
+      <section class="hero-section plan-hero">
+        <div class="hero-content">
+          <div class="hero-heading">
+            <h1 class="heading-primary">Create a plan</h1>
+          </div>
+
+          <div class="hero-text">
+            <p>
+              Coffee the way you wanted it to be. For coffee delivered tomorrow,
+              or next week. For whatever brew method you use. For choice, for
+              convenience, for quality.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="how-it-works-section bg-blue">
+        <div class="grid grid-3-col">
+          <div class="number-col">
+            <h2 class="numbers">01</h2>
+            <h3 class="heading-secondary">Pick your coffee</h3>
+            <p>
+              Select from our evolving range of artisan coffees. Our beans are
+              ethically sourced and we pay fair prices for them. There are new
+              coffees in all profiles every month for you to try out.
+            </p>
+          </div>
+
+          <div class="number-col">
+            <h2 class="numbers">02</h2>
+            <h3 class="heading-secondary">Choose your frequency</h3>
+            <p>
+              Customize your order frequency, quantity, even your roast style
+              and grind type. Pause, skip or cancel your subscription with no
+              commitment through our online portal.
+            </p>
+          </div>
+          <div class="number-col">
+            <h2 class="numbers">03</h2>
+            <h3 class="heading-secondary">Receive and enjoy!</h3>
+            <p>
+              We ship your package within 48 hours, freshly roasted. Sit back
+              and enjoy award-winning world-class coffees curated to provide a
+              distinct tasting experience.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="grid grid-25-75">
+          <div class="fixed">
+            <ul role="list" class="list-type bold">
+              <li class="mb-4 heading-tertiary"><span>01</span> Preferences</li>
+              <li class="mb-4 heading-tertiary"><span>02</span> Bean type</li>
+              <li class="mb-4 heading-tertiary"><span>03</span> Quantity</li>
+              <li class="mb-4 heading-tertiary">
+                <span>04</span> Grind option
+              </li>
+              <li class="mb-4 heading-tertiary"><span>05</span> Deliveries</li>
+            </ul>
+          </div>
+          <div class="expanding">
+            <div class="expanding-row">
+              <div class="clickable-row row">
+                <h2 class="heading-secondary">How do you drink your coffee?</h2>
+                <img
+                  class="row-arrow"
+                  src="./assets/plan/desktop/icon-arrow.svg"
+                  alt=""
+                />
+              </div>
+
+              <div class="grid grid-3-col expanding-section selection-hidden">
+                <div class="square">
+                  <h3 class="heading-tertiary">Capsule</h3>
+                  <p>Compatible with Nespresso systems and similar brewers</p>
+                </div>
+                <div class="square">
+                  <h3 class="heading-tertiary">Filter</h3>
+                  <p>
+                    For pour over or drip methods like Aeropress, Chemex, and
+                    V60
+                  </p>
+                </div>
+                <div class="square">
+                  <h3 class="heading-tertiary">Espresso</h3>
+                  <p>
+                    Dense and finely ground beans for an intense flavorful
+                    experience
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="expanding-row">
+              <div class="clickable-row row">
+                <h2 class="heading-secondary">What type of coffee?</h2>
+                <img
+                  class="row-arrow"
+                  src="./assets/plan/desktop/icon-arrow.svg"
+                  alt=""
+                />
+              </div>
+              <div class="grid grid-3-col expanding-section selection-hidden">
+                <div class="square">
+                  <h3 class="heading-tertiary">Single Origin</h3>
+                  <p>
+                    Distinct, high quality coffee from a specific family-owned
+                    farm
+                  </p>
+                </div>
+                <div class="square">
+                  <h3 class="heading-tertiary">Decaf</h3>
+                  <p>
+                    Just like regular coffee except the caffeine has been
+                    removed
+                  </p>
+                </div>
+                <div class="square">
+                  <h3 class="heading-tertiary">Blended</h3>
+                  <p>
+                    Combination of two or three dark roasted beans of organic
+                    coffees
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="expanding-row">
+              <div class="clickable-row row">
+                <h2 class="heading-secondary">How much would you like?</h2>
+                <img
+                  class="row-arrow"
+                  src="./assets/plan/desktop/icon-arrow.svg"
+                  alt=""
+                />
+              </div>
+              <div class="grid grid-3-col expanding-section selection-hidden">
+                <div class="square">
+                  <h3 class="heading-tertiary">250g</h3>
+                  <p>
+                    Perfect for the solo drinker. Yields about 12 delicious
+                    cups.
+                  </p>
+                </div>
+                <div class="square">
+                  <h3 class="heading-tertiary">500g</h3>
+                  <p>
+                    Perfect option for a couple yields about 40 delectable cups.
+                  </p>
+                </div>
+                <div class="square">
+                  <h3 class="heading-tertiary">1000g</h3>
+                  <p>
+                    Perfect for offices and events. Yields about 90 delightful
+                    cups.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="expanding-row">
+              <div class="clickable-row row">
+                <h2 class="heading-secondary">Want us to grind them?</h2>
+                <img
+                  class="row-arrow"
+                  src="./assets/plan/desktop/icon-arrow.svg"
+                  alt=""
+                />
+              </div>
+              <div class="grid grid-3-col expanding-section selection-hidden">
+                <div class="square">
+                  <h3 class="heading-tertiary">Wholebean</h3>
+                  <p>Best choice if you cherish the full sensory experience</p>
+                </div>
+                <div class="square">
+                  <h3 class="heading-tertiary">Filter</h3>
+                  <p>
+                    For drip or pour-over coffee methods such as V60 or
+                    Aeropress
+                  </p>
+                </div>
+                <div class="square">
+                  <h3 class="heading-tertiary">Cafetiére</h3>
+                  <p>
+                    Course ground beans specially suited for french press coffee
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="expanding-row">
+              <div class="clickable-row row">
+                <h2 class="heading-secondary">How often should we deliver?</h2>
+                <img
+                  class="row-arrow"
+                  src="./assets/plan/desktop/icon-arrow.svg"
+                  alt=""
+                />
+              </div>
+              <div class="grid grid-3-col expanding-section selection-hidden">
+                <div class="square">
+                  <h3 class="heading-tertiary">Every week</h3>
+                  <p>
+                    $14.00 per shipment. Includes free first-class shipping.
+                  </p>
+                </div>
+                <div class="square">
+                  <h3 class="heading-tertiary">Every 2 weeks</h3>
+                  <p>$17.25 per shipment. Includes free priority shipping.</p>
+                </div>
+                <div class="square">
+                  <h3 class="heading-tertiary">Every month</h3>
+                  <p>$22.50 per shipment. Includes free priority shipping.</p>
+                </div>
+              </div>
+            </div>
+            <div class="order-summary mb-3 bg-blue">
+              <p class="order-summary-heading mb-2 dark-cyan">ORDER SUMMARY</p>
+              <h4
+                id="order-summary-message"
+                class="heading-tertiary bold white"
+              >
+                “I drink coffee <span class="order dark-cyan"></span>, with a
+                <span class="order dark-cyan"></span> type of bean.
+                <span class="order dark-cyan"></span> ground ala
+                <span class="order dark-cyan"></span>, sent to me
+                <span class="order dark-cyan"></span>.”
+              </h4>
+            </div>
+            <div class="flex flex-end">
+              <button class="create-btn order-btn">Create my plan!</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

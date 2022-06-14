@@ -1,0 +1,390 @@
+@media (max-width: 900px) {
+  /******************* HERO  ******************/
+  .home-hero {
+    background-image: url('./assets/home/tablet/image-hero-coffeepress.jpg');
+    height: 50rem;
+  }
+
+  .about-hero,
+  .plan-hero {
+    height: 40rem;
+  }
+
+  .about-hero {
+    background-image: url('./assets/about/tablet/image-hero-whitecup.jpg');
+  }
+
+  .plan-hero {
+    background-image: url('./assets/plan/tablet/image-hero-blackcup.jpg');
+  }
+
+  .heading-primary {
+    font-size: 5.2rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 3rem;
+  }
+
+  .heading-quaternary {
+    font-size: 2.8rem;
+  }
+
+  .hero-content {
+    padding: 8rem 6rem;
+  }
+
+  .hero-text p {
+    font-size: 1.5rem;
+  }
+
+  /****************** OUR COLLECTION  *****************/
+
+  .container {
+    width: 100%;
+  }
+
+  .grid-4-col {
+    grid-template-columns: 1fr;
+  }
+
+  .our-collection-heading {
+    font-size: 12rem;
+    margin-bottom: -8rem;
+  }
+
+  .collection-col {
+    flex-direction: row;
+    text-align: left;
+    padding-inline: 10rem;
+  }
+
+  .collection-img {
+    width: 40%;
+  }
+
+  /**************** WHY CHOOSE US ***************/
+  .choose-col {
+    width: 80%;
+    height: 20rem;
+    margin-right: 0;
+    margin-bottom: 2.5rem;
+    padding-right: 8rem;
+    flex-direction: row;
+  }
+
+  .choose-text {
+    text-align: start;
+  }
+
+  .choose-img {
+    margin-right: 6rem;
+  }
+
+  .icon-box {
+    margin: 0;
+  }
+
+  .green-cols {
+    flex-direction: column;
+    bottom: -65%;
+  }
+
+  /**************** FOOTER ***************/
+
+  .footer {
+    height: 30rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .nav-footer {
+    padding-bottom: 7rem;
+  }
+
+  .footer-logo {
+    padding-bottom: 4rem;
+  }
+
+  .social-media-image:last-of-type {
+    margin: 0;
+  }
+
+  /**************** How it Works ***************/
+
+  .commitment-text {
+    font-size: 1.2rem;
+  }
+
+  .our-commitment-section {
+    margin: 2rem;
+    margin-bottom: 30rem;
+  }
+
+  .commitment-image-desktop {
+    display: none;
+  }
+
+  .commitment-image-tablet {
+    display: block;
+  }
+
+  /************** UNCOMPROMISING QUALITY ***************/
+
+  .quality-banner {
+    padding: 0;
+  }
+
+  .quality-img-container {
+    display: none;
+  }
+
+  .quality-img-tablet {
+    display: block;
+    position: absolute;
+    top: -40%;
+    margin-bottom: 20rem;
+  }
+
+  .grid-70-30 {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+
+  .quality-banner {
+    background-image: url(./assets/about/tablet/bg-quality.png);
+    height: 48.8rem;
+  }
+
+  .quality-text-container {
+    text-align: center;
+  }
+
+  .responsive-quaility-images {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 11rem;
+  }
+
+  /*********** HOW DO YOU DRINK YOUR COFFEE **************/
+
+  .grid-3-col {
+    grid-gap: 1.5rem;
+  }
+
+  .fixed {
+    display: none;
+  }
+
+  .grid-25-75 {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+
+  .flex-end {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .grid-3-col {
+    grid-template-columns: 1fr;
+  }
+
+  /******************* NAVIGATION  ******************/
+  .mobile-navigation {
+    display: block;
+  }
+
+  .main-navigation {
+    display: none;
+  }
+
+  /******************* TYPGOGRAPHY  ******************/
+  .home-hero {
+    background-image: url('./assets/home/mobile/image-hero-coffeepress.jpg');
+  }
+
+  .about-hero {
+    background-image: url('./assets/about/mobile/image-hero-whitecup.jpg');
+  }
+
+  .plan-hero {
+    background-image: url('./assets/plan/mobile/image-hero-blackcup.jpg');
+  }
+
+  .hero-section {
+    margin-bottom: 8rem;
+  }
+
+  .heading-primary {
+    font-size: 3.2rem;
+  }
+
+  .heading-secondary {
+    font-size: 2.8rem;
+  }
+
+  .hero-content {
+    padding: 9.2rem 2.2rem;
+    align-items: center;
+  }
+
+  .hero-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .create-btn {
+    width: 80%;
+  }
+
+  .collection-col {
+    flex-direction: column;
+    text-align: center;
+    padding-inline: 4rem;
+  }
+
+  .collection-img {
+    width: 60%;
+  }
+
+  .our-collection-heading {
+    font-size: 4.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /**************** WHY CHOOSE US ***************/
+
+  .choose-us-section {
+    margin-bottom: 80rem;
+  }
+
+  .choose-col {
+    width: 90%;
+    height: 30rem;
+    padding-right: 4rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .choose-img {
+    margin: 0;
+  }
+
+  .choose-text {
+    text-align: center;
+  }
+
+  .choose-us-content {
+    padding-inline: 2rem;
+  }
+
+  .green-cols {
+    padding-inline: 1rem;
+    bottom: -125%;
+  }
+
+  .nav-footer .nav-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-footer .nav-list .list-item {
+    margin-right: 0;
+    padding-bottom: 1rem;
+  }
+
+  /********** HOW IT WORKS *********/
+
+  .how-it-works-section {
+    text-align: center;
+  }
+
+  .numbers {
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+  }
+
+  .bottom-btn {
+    margin: 0;
+  }
+
+  /*********************************************/
+  /************** ABOUT US PAGE ****************/
+  /*********************************************/
+
+  /************** OUR COMMITMENT ***************/
+  .grid-2-col {
+    grid-template-columns: 1fr;
+  }
+  .headquarters-section,
+  .our-commitment-section {
+    margin-inline: 2rem;
+    text-align: center;
+  }
+
+  .our-commitment-section {
+    margin-bottom: 14rem;
+  }
+
+  .commitment-image-mobile {
+    display: block;
+  }
+
+  .commitment-image-tablet {
+    display: none;
+  }
+
+  /************** UNCOMPROMISING QUALITY ***************/
+
+  .quality-banner {
+    background-image: url(./assets/about/mobile/bg-quality.png);
+  }
+
+  .quality-img-tablet {
+    display: none;
+  }
+
+  .quality-img-mobile {
+    display: block;
+    width: 80%;
+  }
+
+  .quality-text-container {
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .quality-text-container .heading-secondary {
+    margin-bottom: 2rem;
+  }
+
+  .quality-img-mobile {
+    position: absolute;
+    top: -20%;
+  }
+
+  .responsive-quaility-images {
+    padding-bottom: 8rem;
+  }
+
+  .quality-text {
+    padding: 0;
+  }
+
+  /************* OUR HEADQUATERS ***********/
+
+  .country-img {
+    margin: 0 auto;
+  }
+
+  .square {
+    height: 18rem;
+  }
+}
