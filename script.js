@@ -135,3 +135,11 @@ function amendOrder() {
   }
   priceBtn.innerHTML = planCost;
 }
+
+//Popup order menu
+
+const orderPopupBtn = document.getElementById('order-popup-btn');
+const orderPopupMenu = document.querySelector('.summary-menu');
+orderPopupBtn.addEventListener('click', () => {
+  orderPopupMenu.style.display = 'block';
+});

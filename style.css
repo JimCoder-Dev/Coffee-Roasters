@@ -605,15 +605,20 @@ h4 {
   margin-top: 3rem;
 }
 
-.summary-menu-heading {
-  font-size: 3.2rem;
-  padding: 2rem;
-  margin-bottom: 0;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+.border-b {
+  border-bottom: 1px solid black;
 }
 
+.li-p {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  margin-right: 1rem;
+}
+
+/* ORDER MENU POPUP */
+
 .summary-menu {
+  display: none;
   z-index: 100;
   position: absolute;
   left: 15%;
@@ -622,13 +627,20 @@ h4 {
   top: 15%;
 }
 
+.summary-menu-heading {
+  font-size: 3.2rem;
+  padding: 2rem;
+  margin-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
 .summary-menu-container {
   padding: 4rem;
   background-color: #fff;
   border-bottom-left-radius: 14px;
   border-bottom-right-radius: 14px;
-  //TEMPORARY
-  box-shadow: 5px 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .summary-menu-container p {
